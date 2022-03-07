@@ -1,0 +1,1 @@
+const buger = document.querySelectorAll(".burger");
