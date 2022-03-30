@@ -8,6 +8,7 @@ html, body {
     width: 100%;
     font-family: "roboto", sans-serif;
     font-size: 10px;
+    background-color: rgb(8, 8, 8);
 }
 
 
@@ -21,18 +22,39 @@ html, body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    mix-blend-mode: difference;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
-    background-color: #000;
-    display: flex;
-    align-items: center;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    place-items: center;
+    
 }
 
+.logo p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(8, 8, 8);
+}
 
+.burger {
+    background-color: lightgreen;
+    height: 3rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.line {
+    width: 3.5rem;
+    height: 0.3rem;
+    background-color: rgb(245, 245, 245);;
+}
 
 
 
