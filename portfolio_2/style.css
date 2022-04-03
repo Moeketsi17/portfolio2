@@ -185,5 +185,125 @@ header {
 }
 
 
+/* about sectio */
+/* about sectio */
+/* about sectio */
+.about-section {
+    padding: 3rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 1.8rem;
+    color: rgb(245, 245, 245);
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-container {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.about-text {
+    font-size: 1.6rem;
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.about-section a {
+    font-size: 1.6rem;
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+
+/* project section */
+/* project section */
+/* project section */
+.projects-section {
+    padding: 4rem 5%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.orject-card {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(245, 245, 245);
+    margin: 2rem 0;
+    height: 45rem;
+    width: 100%;
+    padding: 1rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: -5px 8px 15px 0 rgba(255, 255, 255, 0.1);
+}
+
+.project-img {
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.project-img1 {
+    background-image: url(/portfolio_2/images/BLACKDOT\ mockup.jpg);
+}
+
+
+
+.project-heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.project-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.project-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
