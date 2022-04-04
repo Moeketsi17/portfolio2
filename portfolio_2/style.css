@@ -5,10 +5,16 @@
 }
 
 html {
+    overflow-x: hidden;
     width: 100%;
     font-family: "roboto", sans-serif;
     font-size: 10px;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(10, 10, 10);
+}
+
+body {
+    overflow: hidden;
+    position: relative;
 }
 
 
@@ -50,7 +56,7 @@ html {
 .burger {
     display: flex;
     flex-direction: column;
-    width: 35px;
+    width: 30px;
     height: 25px;
     justify-content: space-between;
     z-index: 10000;
@@ -58,13 +64,13 @@ html {
 }
 
 .line1 {
-    width: 1.75rem;
+    width: 1.5rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
 }
 
 .line2 {
-    width: 3.5rem;
+    width: 3rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
 }
@@ -72,7 +78,7 @@ html {
 .line3 {
     position: relative;
     left: 50%;
-    width: 1.75rem;
+    width: 1.5rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
 }
@@ -132,25 +138,49 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
+    padding: 0 5%;
 }
 
+.bg-text-container {
+    color: rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    top: 0;
+    left: -23%;
+    width: 150%;
+}
+
+.bg-text {
+    font-size: 10rem;
+    font-weight: 700;
+}
 
 .hi-container {
-    height: 3rem;
+    height: 4rem;
     overflow: hidden;
 }
 
 .hi-container h2 {
     color: rgb(245, 245, 245);
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.hi-container h2 span {
+    color: #04667B;
+    font-weight: 500;
 }
 
 .name-container  {
-    height: 7rem;
+    height: 15rem;
     overflow: hidden;
     z-index: 2;
 }
@@ -160,28 +190,12 @@ header {
     font-size: 6rem;
 }
 
-.profession-container {
-    height: 3rem;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.profession-container h4 {
-    color: rgb(245, 245, 245);
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.profession-container h4 span {
-    color: #04667B;
-    
-}
-
 .resume {
     height: 5rem;
     width: 100%;
-    display: grid;
-    place-items: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cta-btn {
@@ -189,13 +203,28 @@ header {
     font-weight: 300;
     text-decoration: none;
     height: 3rem;
-    width: 25rem;
+    width: 15rem;
+    background-color: #04667B;
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cta-btn2 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    height: 3rem;
+    width: 15rem;
     background-color: rgb(245, 245, 245);
     color: rgb(8, 8, 8);
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
+    
 }
 
 
@@ -281,12 +310,14 @@ header {
     background-image: url(/portfolio_2/images/BLACKDOT\ mockup.jpg);
 }
 
-
+.project-img2 {
+    background-image: url(/portfolio_2/images/ARTstudio.jpg);
+}
 
 .project-heading {
     font-size: 1.8rem;
     font-weight: 400;
-    padding: 1rem 0;
+    padding: 1.5rem 0 1rem;
     text-align: center;
 }
 
@@ -305,9 +336,18 @@ header {
 
 
 
+/* footer section */
+/* footer section */
+/* footer section */
+footer {
+    width: 100%;
+    padding: 6rem 5% 2rem;
+}
 
-
-
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
