@@ -9,10 +9,11 @@ html {
     width: 100%;
     font-family: "roboto", sans-serif;
     font-size: 10px;
-    background-color: rgb(10, 10, 10);
+    
 }
 
 body {
+    background-color: rgb(10, 10, 10);
     overflow: hidden;
     position: relative;
 }
@@ -282,12 +283,13 @@ header {
 
 
 
-.about-section a {
+.more {
     font-size: 1.6rem;
     color: rgb(245, 245, 245);
     font-weight: 300;
     text-align: center;
     margin: 2rem 0;
+    
 }
 
 
@@ -297,6 +299,9 @@ header {
 /* project section */
 .projects-section {
     padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-container {
@@ -448,6 +453,79 @@ footer {
     height: 45rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact page */
+/* contact page */
+/* contact page */
+/* contact page */
+/* contact page */
+.contact-header {
+    height: 100vh;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.contact-info {
+    display: none;
+}
+
+.form-section {
+    width: 100%;
+    padding: 10rem 0 0;
+}
+
+.rect {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 0 0.6rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 0 0.6rem;
+    height: 10rem;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+}
+
+.button {
+    width: 100%;
+    height: 4rem;
+    background-color: #04667B;
+    color: rgb(245, 245, 245);
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 
 
 
