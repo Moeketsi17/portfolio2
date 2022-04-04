@@ -277,6 +277,7 @@ header {
     color: rgb(245, 245, 245);
     font-weight: 300;
     text-align: center;
+    margin-top: 1rem;
 }
 
 
@@ -418,6 +419,34 @@ footer {
 
 
 
+
+
+
+
+
+
+
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+.about-img-container {
+    width: 30rem;
+    height: 45rem;
+    padding: 1rem 0 0 1rem;
+    background-color: #04667B;
+    margin-top: 5rem;
+}
+
+.about-img{
+    background-image: url(/portfolio_2/images/HUJ.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 45rem;
+}
 
 
 
