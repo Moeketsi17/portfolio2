@@ -67,27 +67,69 @@ body {
     justify-content: space-between;
     z-index: 10000;
     mix-blend-mode: difference;
+    position: relative;
+}
+
+.line {
+    position: absolute;
 }
 
 .line1 {
     width: 1.5rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
+    top: 0;
+    left: 0;
+    transform-origin: top left;
 }
 
 .line2 {
     width: 3rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
 .line3 {
-    position: relative;
     left: 50%;
     width: 1.5rem;
     height: 0.2rem;
     background-color: rgb(245, 245, 245);
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
 }
+
+.burger.open .line1 {
+    -moz-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -o-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -ms-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -webkit-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    transform: rotate(45deg) translateX(20px) translateY(-2px);
+    transition: all 0.4s ease;
+}
+
+.burger.open .line2 {
+    -moz-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -o-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -ms-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -webkit-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    transform: rotate(-45deg) translateY(-50%);
+    transition: all 0.4s ease;
+}
+
+.burger.open .line3 {
+    -moz-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -o-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -ms-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    -webkit-transform: rotate(45deg) translateX(-20px) translateY(3px);
+    transform: rotate(45deg) translateX(-20px) translateY(3px);
+    transition: all 0.4s ease;
+}
+
+
 
 .nav-links {
     display: flex;
@@ -200,7 +242,7 @@ header {
 }
 
 .name-container  {
-    height: 15rem;
+    height: 17rem;
     overflow: hidden;
     z-index: 2;
 }
@@ -223,7 +265,7 @@ header {
     font-weight: 300;
     text-decoration: none;
     height: 3rem;
-    width: 15rem;
+    width: 45%;
     background-color: #04667B;
     color: rgb(245, 245, 245);
     display: flex;
@@ -237,7 +279,7 @@ header {
     font-weight: 300;
     text-decoration: none;
     height: 3rem;
-    width: 15rem;
+    width: 45%;
     background-color: rgb(245, 245, 245);
     color: rgb(8, 8, 8);
     display: flex;
