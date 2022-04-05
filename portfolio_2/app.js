@@ -15,3 +15,22 @@ burger.addEventListener('click', () => {
 });
 
 
+
+let tl2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.header'
+    }
+})
+tl2.from('.hi-container h2', {y: -50, opacity: 0, duration:0.4});
+tl2.from('.name-container h1', {y: -50, opacity: 0, duration:0.4, stagger: 0.4});
+tl2.from('.resume', {y: -50, opacity: 0, duration:0.4});
+
+
+
+
+
+
+
+
+
+
