@@ -298,9 +298,9 @@ header {
 
 
 
-/* about sectio */
-/* about sectio */
-/* about sectio */
+/* about section */
+/* about section */
+/* about section */
 .about-section {
     padding: 3rem 5%;
     display: flex;
@@ -918,7 +918,185 @@ footer {
 
 @media screen and (min-width: 1024px) {
     
-    
+        
+    /* header section */
+    /* header section */
+    /* header section */
+
+
+    .bg-text-container {
+        color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        overflow: hidden;
+        height: 100vh;
+        top: 0;
+        left: -33%;
+        width: 165%;
+    }
+
+    .bg-text {
+        font-size: 25rem;
+        font-weight: 800;
+    }
+
+    .hi-container {
+        height: 5rem;
+        overflow: hidden;
+    }
+
+    .hi-container h2 {
+        color: rgb(245, 245, 245);
+        font-weight: 300;
+        font-size: 4rem;
+    }
+
+    .hi-container h2 span {
+        color: #04667B;
+        font-weight: 500;
+    }
+
+    .name-container  {
+        height: 11rem;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    .name-container h1 {
+        color: rgb(245, 245, 245);
+        font-size: 10rem;
+    }
+
+    .resume {
+        height: 7rem;
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .cta-btn {
+        font-size: 2.2rem;
+        font-weight: 300;
+        height: 5rem;
+        width: 30rem;
+    }
+
+    .cta-btn2 {
+        margin-left: 2rem;
+    }
+
+
+
+
+        
+
+    /* about section */
+    /* about section */
+    /* about section */
+
+    .heading {
+        font-size: 3.4rem;
+        color: rgb(245, 245, 245);
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .about-info-container {
+        display: flex;
+    }
+
+    .text-container {
+        width: 50%;
+        
+    }
+
+    .about-text {
+        font-size: 2.6rem;
+        color: rgb(245, 245, 245);
+        font-weight: 300;
+        text-align: left;
+        margin-top: 1rem;
+        padding: 5rem 7% 0 0;
+    }
+
+    .skills-container {
+        padding: 0;
+    }
+
+
+
+    .more {
+        font-size: 3rem;
+        color: rgb(245, 245, 245);
+        font-weight: 300;
+        text-align: center;
+        margin: 2rem 0;
+        
+    }
+
+
+
+    /* project section */
+    /* project section */
+    /* project section */
+    .projects-section {
+        padding: 4rem 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .orject-card {
+        margin: 3rem 0;
+        height: 75rem;
+        width: 50%;
+        padding: 2rem;
+        
+    }
+
+    .project-img {
+        height: 35rem;
+    }
+
+
+    .project-heading {
+        font-size: 3rem;
+        font-weight: 400;
+        padding: 2rem 0 1rem;
+        text-align: center;
+    }
+
+    .project-text {
+        font-size: 2.4rem;
+    }
+
+    .project-links {
+        margin-top: 3rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .project-links a {
+        font-size: 2.6rem;
+        color: rgb(245, 245, 245);
+        text-align: center;
+        margin: 0 1rem;
+        font-weight: 300;
+    }
+
 
 
 
