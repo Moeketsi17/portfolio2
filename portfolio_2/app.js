@@ -23,9 +23,32 @@ let tl2 = gsap.timeline({
 })
 tl2.from('.hi-container h2', {y: -50, opacity: 0, duration:0.4});
 tl2.from('.name-container h1', {y: -50, opacity: 0, duration:0.4, stagger: 0.4});
-tl2.from('.resume', {y: -50, opacity: 0, duration:0.4});
+tl2.from('.resume a', {y: -50, opacity: 0, duration:0.4});
 
 
+
+
+// ease in and out animations on scroll
+let projectElements = Array.from(document.querySelectorAll('.orject-card'));
+
+window.addEventListener('scroll', scanElements)
+
+function scanElements(){
+    // get position of each div
+    projectElements.forEach(element => {
+        if(isVisable(element)){
+            element.classList.add('view');
+        } else {
+            element.classList.remove('view');
+        }
+    })
+}
+
+function isVisable(element){
+    const elementDiv = element.getBoundingClientRect();
+    let distanceFromTop = -300;
+    return elementDiv.top - window.innerHeight < distanceFromTop ? true : false;
+}
 
 
 

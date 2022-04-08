@@ -224,6 +224,7 @@ header {
     top: 0;
     left: -23%;
     width: 165%;
+    pointer-events: none;
 }
 
 .bg-text {
@@ -263,6 +264,7 @@ header {
     width: 100%;
     margin-top: 1rem;
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
 }
 
@@ -329,15 +331,31 @@ header {
     margin-top: 1rem;
 }
 
+.skils-img-container {
+    display: grid;
+    place-items: center;
+}
 
 
 .more {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: rgb(245, 245, 245);
     font-weight: 300;
     text-align: center;
     margin: 2rem 0;
-    
+    text-decoration: none;
+    width: 100%;
+}
+
+.more a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+.more img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 
@@ -368,6 +386,19 @@ header {
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: -5px 8px 15px 0 rgba(255, 255, 255, 0.1);
+    /* animation */
+    position: relative;
+    top: 5rem;
+    transition: 0.5s ease-out;
+    opacity: 0;
+}
+
+.orject-card.view {
+    top: 0;
+    opacity: 1;
+    transform: translateY(-5rem);
+    transition: 0.5s ease-in;
+
 }
 
 .project-img {
@@ -597,6 +628,9 @@ footer {
 /* tablet veiwport 768px */
 @media screen and (min-width: 768px) {
 
+    .burger {
+        cursor: pointer;
+    }
     /* nav-links */
     .nav-links {
         display: flex;
@@ -608,7 +642,7 @@ footer {
         right: 0;
         z-index: 100;
         position: fixed;
-        padding: 20rem 5% 0;
+        padding: 16rem 5% 0;
         transform: translateX(100%);
         transition: transform 0.35s ease-in-out;
         backdrop-filter: blur(15px);
@@ -632,7 +666,7 @@ footer {
     }
 
     .nav-links ul li a {
-        font-size: 5rem;
+        font-size: 4rem;
         color: rgb(245, 245, 245);
         text-decoration: none;
         font-weight: 300;
@@ -651,7 +685,8 @@ footer {
         font-size: 20rem;
         font-weight: 600;
         z-index: 110;
-        top: 20%;
+        bottom: 5%;
+        
     }
 
     .social-links-nav a {
@@ -687,14 +722,14 @@ footer {
     }
 
     .hi-container {
-        height: 6rem;
+        height: 5rem;
         overflow: hidden;
     }
 
     .hi-container h2 {
         color: rgb(245, 245, 245);
         font-weight: 300;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .hi-container h2 span {
@@ -703,18 +738,18 @@ footer {
     }
 
     .name-container  {
-        height: 14rem;
+        height: 10rem;
         overflow: hidden;
         z-index: 2;
     }
 
     .name-container h1 {
         color: rgb(245, 245, 245);
-        font-size: 12rem;
+        font-size: 8rem;
     }
 
     .resume {
-        height: 7rem;
+        height: 6rem;
         width: 100%;
         margin-top: 1rem;
         display: flex;
@@ -724,7 +759,7 @@ footer {
     .cta-btn {
         font-size: 2.2rem;
         font-weight: 300;
-        height: 5rem;
+        height: 4rem;
         width: 30rem;
     }
 
@@ -732,7 +767,7 @@ footer {
         font-size: 2.2rem;
         font-weight: 300;
         text-decoration: none;
-        height: 5rem;
+        height: 4rem;
         width: 30rem;
         
     }
@@ -751,47 +786,69 @@ footer {
         padding: 5rem 5%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: left;
+        justify-content: left;
+    }
+
+    .about-info-container {
+        display: flex;
     }
 
     .heading {
-        font-size: 3.4rem;
+        font-size: 2.4rem;
         color: rgb(245, 245, 245);
         font-weight: 400;
-        text-align: center;
+        text-align: left;
         margin: 2rem 0;
     }
 
     .text-container {
-        width: 100%;
+        width: 50%;
         padding: 1rem 0;
     }
 
     .about-text {
-        font-size: 2.8rem;
+        font-size: 2rem;
         color: rgb(245, 245, 245);
         font-weight: 300;
-        text-align: center;
+        text-align: left;
         margin-top: 1rem;
     }
 
     .skills-container {
-        padding: 2rem 0;
+        padding: 0 2rem;
+        width: 50%;
+    }
+
+    .skils-img-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .img-top img {
-        width: 14rem;
+        width: 10rem;
     }
 
 
     .more {
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(245, 245, 245);
         font-weight: 300;
-        text-align: center;
+        text-align: left;
         margin: 2rem 0;
-        
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .more a {
+        color: rgb(245, 245, 245);
+        text-decoration: none;
+    }
+
+    .more img {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 0.5rem;
     }
 
 
@@ -806,30 +863,45 @@ footer {
     /* project section */
     /* project section */
     /* project section */
-    
+    .projects-section {
+        padding: 4rem 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .projects-section h4 {
+        width: 100%;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
 
     .orject-card {
         margin: 3rem 0;
-        height: 75rem;
-        width: 100%;
+        height: 55rem;
+        width: 50%;
         padding: 2rem;
         
     }
 
     .project-img {
-        height: 35rem;
+        height: 20rem;
     }
 
 
     .project-heading {
-        font-size: 3rem;
+        font-size: 2.2rem;
         font-weight: 400;
         padding: 2rem 0 1rem;
         text-align: center;
     }
 
     .project-text {
-        font-size: 2.8rem;
+        font-size: 1.8rem;
     }
 
     .project-links {
@@ -840,7 +912,7 @@ footer {
     }
 
     .project-links a {
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(245, 245, 245);
         text-align: center;
         margin: 0 1rem;
@@ -866,11 +938,11 @@ footer {
 
     .footer-social-links a,
     .footer-nav-links a {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         color: rgb(245, 245, 245);
         text-decoration: none;
         font-weight: 300;
-        height: 3.8rem;
+        height: 2.4rem;
     }
 
     .copyright {
@@ -883,7 +955,7 @@ footer {
 
     .copyright p {
         color: rgb(245, 245, 245);
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 300;
         padding: 1rem 0 0;
     }
