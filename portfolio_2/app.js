@@ -28,10 +28,13 @@ tl2.from('.resume a', {y: -50, opacity: 0, duration:0.4});
 
 
 
-// ease in and out animations on scroll
+
+
+
+// projects ease in and out animations on scroll 
 let projectElements = Array.from(document.querySelectorAll('.orject-card'));
 
-window.addEventListener('scroll', scanElements)
+window.addEventListener('scroll', throttle(scanElements, 20))
 
 function scanElements(){
     // get position of each div
@@ -50,7 +53,18 @@ function isVisable(element){
     return elementDiv.top - window.innerHeight < distanceFromTop ? true : false;
 }
 
-
+function throttle(fn, delay){
+    let lastCall = 0;
+    return (...arg) => {
+        let context = this;
+        let current = new Date().getTime();
+        if(current - lastCall < delay){
+            return
+        }
+        lastCall = current;
+        return fn.apply(context, ...arg)
+    }
+}
 
 
 

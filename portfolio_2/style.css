@@ -311,6 +311,7 @@ header {
     justify-content: center;
 }
 
+
 .heading {
     font-size: 1.8rem;
     color: rgb(245, 245, 245);
@@ -322,6 +323,9 @@ header {
     width: 100%;
     padding: 3rem 0;
 }
+
+
+
 
 .about-text {
     font-size: 1.6rem;
@@ -396,7 +400,7 @@ header {
 .orject-card.view {
     top: 0;
     opacity: 1;
-    transform: translateY(-5rem);
+    transform: translateY(0rem);
     transition: 0.5s ease-in;
 
 }
