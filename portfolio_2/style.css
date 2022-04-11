@@ -1123,11 +1123,12 @@ footer {
         border-radius: 5px;
     }
     
-    /* header section */
-    /* header section */
-    /* header section */
 
 
+
+    /* header section */
+    /* header section */
+    /* header section */
     .bg-text-container {
         color: rgba(255, 255, 255, 0.1);
         display: flex;
@@ -1191,7 +1192,8 @@ footer {
     }
 
     .cta-btn2 {
-        margin-left: 2rem;
+        height: 5rem;
+        margin-left: 3rem;
     }
 
 
@@ -1202,6 +1204,9 @@ footer {
     /* about section */
     /* about section */
     /* about section */
+    .about-section {
+        height: 100vh;
+    }
 
     .heading {
         font-size: 2.6rem;
