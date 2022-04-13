@@ -11,7 +11,7 @@ burger.addEventListener('click', () => {
 
     let tl = gsap.timeline()
     tl.from('.nav-links ul li a', {y: -50 , opacity: 0, duration: 0.4, stagger: 0.25, delay: 0.2});
-    tl.from('.social-links-nav a', {y: 30, opacity:0, duration: 0.4, stagger: 0.25}, '-=0.4')
+    tl.from('.social-links-nav a', {y: 30, opacity:0, duration: 0.4}, '-=0.4')
 });
 
 
@@ -49,7 +49,7 @@ function scanElements(){
 
 function isVisable(element){
     const elementDiv = element.getBoundingClientRect();
-    let distanceFromTop = -300;
+    let distanceFromTop = -200;
     return elementDiv.top - window.innerHeight < distanceFromTop ? true : false;
 }
 
