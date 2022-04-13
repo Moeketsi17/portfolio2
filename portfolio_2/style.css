@@ -1139,7 +1139,7 @@ footer {
         background-color: rgba(0, 0, 0, 0);
         top: 0;
         right: 0;
-        z-index: 100;
+        z-index: 10000;
         position: fixed;
         padding: 2rem 5% 0;
         transform: translateX(0);
@@ -1198,7 +1198,7 @@ footer {
     /* header section */
     /* header section */
     .bg-text-container {
-        color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.04);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1214,6 +1214,7 @@ footer {
     .bg-text {
         font-size: 25rem;
         font-weight: 800;
+        height: 24rem;
     }
 
     .hi-container {
