@@ -1421,6 +1421,48 @@ footer {
 
 
 
+    /* footer section */
+    /* footer section */
+    /* footer section */
+
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 4rem 0 0;
+    }
+
+    .footer-social-links a,
+    .footer-nav-links a {
+        font-size: 1.8rem;
+        color: rgb(245, 245, 245);
+        text-decoration: none;
+        font-weight: 300;
+        height: 2.4rem;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 38%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* about page */
     /* about page */
@@ -1475,7 +1517,7 @@ footer {
         width: 100%;
         padding: 0 5%;
         display: flex;
-        padding: 10rem 5% 0 ;
+        padding: 18rem 5% 0 ;
     }
 
     .contact-info {
