@@ -16,6 +16,7 @@ body {
     background-color: rgb(10, 10, 10);
     overflow: hidden;
     position: relative;
+    
 }
 
 
@@ -556,7 +557,7 @@ footer {
 /* projects page */
 /* projects page */
 .projects-section-page {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 
@@ -922,14 +923,14 @@ footer {
 
 
     .project-heading {
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 400;
         padding: 2rem 0 1rem;
         text-align: center;
     }
 
     .project-text {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .project-links {
@@ -940,7 +941,7 @@ footer {
     }
 
     .project-links a {
-        font-size: 2rem;
+        font-size: 1.6rem;
         color: rgb(245, 245, 245);
         text-align: center;
         margin: 0 1rem;
@@ -1355,7 +1356,7 @@ footer {
 
     .orject-card {
         margin: 3rem 0;
-        height: 75rem;
+        height: 65rem;
         width: 50%;
         padding: 2rem;
         
@@ -1367,14 +1368,15 @@ footer {
 
 
     .project-heading {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 400;
         padding: 2rem 0 1rem;
         text-align: center;
     }
 
     .project-text {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
+        height: 12rem;
     }
 
     .project-links {
@@ -1385,7 +1387,7 @@ footer {
     }
 
     .project-links a {
-        font-size: 2.6rem;
+        font-size: 1.8rem;
         color: rgb(245, 245, 245);
         text-align: center;
         margin: 0 1rem;
@@ -1519,11 +1521,31 @@ footer {
 
 
 
-
 }
 
 
 
+
+
+/* large desktop screen 1044px */
+/* large desktop screen 1044px */
+/* large desktop screen 1044px */
+/* large desktop screen 1044px */
+/* large desktop screen 1044px */
+/* @media screen and (min-width: 1440px) {
+
+    find a way to place body items in the center when the screen
+    gets to big.
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 124rem;
+    }
+} */
 
 
 
