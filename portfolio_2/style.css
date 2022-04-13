@@ -1201,6 +1201,10 @@ footer {
         display: inline-block;
     }
 
+    .nav-links ul li .active-page {
+        color: #02a0c4;
+    }
+
     .social-links {
         display: none;
     }
@@ -1276,11 +1280,24 @@ footer {
         font-weight: 300;
         height: 5rem;
         width: 30rem;
+        
+    }
+
+    .cta-btn:hover {
+        background-color: #012d36;
+        transition: 0.3s;
     }
 
     .cta-btn2 {
         height: 5rem;
         margin-left: 3rem;
+        
+    }
+
+    .cta-btn2:hover {
+        transition: 0.3s;
+        background-color: rgb(138, 138, 138);
+        color: rgb(245, 245, 245);
     }
 
 
