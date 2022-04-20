@@ -31,7 +31,7 @@ tl2.from('.resume a', {y: -50, opacity: 0, duration:0.4});
 
 
 
-// projects ease in and out animations on scroll 
+// projects ease in and out project divs on scroll 
 let projectElements = Array.from(document.querySelectorAll('.orject-card'));
 
 window.addEventListener('scroll', throttle(scanElements, 20))
