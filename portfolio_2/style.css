@@ -1072,7 +1072,7 @@ form {
         padding: 0 5%;
         display: flex;
         justify-content: center;
-        padding: 10rem 5% 0 ;
+        padding: 3rem 5% 0 ;
     }
 
     .contact-info {
@@ -1084,6 +1084,11 @@ form {
     .form-section {
         width: 50%;
         padding: 0 0 0 2rem;
+    }
+
+    form {
+        width: 100%;
+        padding: 0 0;
     }
 
     .rect {
@@ -1554,19 +1559,20 @@ form {
         width: 100%;
         padding: 0 5%;
         display: flex;
-        padding: 15rem 5% 0 ;
+        padding: 2rem 5% 0 ;
     }
 
-    .contact-info {
-        display: none;
-        width: 50%;
-        padding: 10rem 10rem 0;
-    }
+    
 
     .form-section {
         width: 40rem;
         padding: 0;
         
+    }
+
+    form {
+        width: 100%;
+        padding: 0 0;
     }
 
     .rect {
