@@ -219,11 +219,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     height: 100vh;
     top: 0;
-    left: -23%;
+    left: -34%;
     width: 165%;
     pointer-events: none;
 }
@@ -434,6 +434,7 @@ header {
     font-size: 1.6rem;
     font-weight: 300;
     text-align: center;
+    height: 12rem;
 }
 
 .project-links {
@@ -611,6 +612,9 @@ footer {
     margin-bottom: 3rem;
     width: 100%;
     color: rgb(245, 245, 245);
+    font-weight: 300;
+    outline: none;
+    resize: none;
 }
 
 .textarea {
@@ -624,6 +628,11 @@ footer {
     margin-bottom: 3rem;
     width: 100%;
     font-family: 'roboto', sans-serif;
+    outline: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    resize: none;
 }
 
 .button {
@@ -739,7 +748,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        position: absolute;
         overflow: hidden;
         height: 100vh;
         top: 0;
@@ -933,6 +942,8 @@ footer {
 
     .project-text {
         font-size: 1.6rem;
+        height: 12rem;
+        
     }
 
     .project-links {
@@ -1228,7 +1239,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        position: absolute;
         overflow: hidden;
         height: 100vh;
         top: 0;
@@ -1237,9 +1248,10 @@ footer {
     }
 
     .bg-text {
-        font-size: 25rem;
+        font-size: 22rem;
         font-weight: 800;
-        height: 24rem;
+        height: 23rem;
+
     }
 
     .hi-container {
