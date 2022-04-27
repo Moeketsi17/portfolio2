@@ -615,6 +615,7 @@ footer {
     font-weight: 300;
     outline: none;
     resize: none;
+    letter-spacing: 0.5px;
 }
 
 .textarea {
@@ -630,7 +631,7 @@ footer {
     font-family: 'roboto', sans-serif;
     outline: none;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 1.4;
     resize: none;
 }
@@ -1243,7 +1244,7 @@ footer {
         overflow: hidden;
         height: 100vh;
         top: 0;
-        left: -33%;
+        left: -32%;
         width: 165%;
     }
 
