@@ -273,8 +273,8 @@ header {
     font-size: 1.6rem;
     font-weight: 300;
     text-decoration: none;
-    height: 3rem;
-    width: 45%;
+    height: 4.5rem;
+    width: 48%;
     background-color: #04667B;
     color: rgb(245, 245, 245);
     display: flex;
@@ -287,8 +287,8 @@ header {
     font-size: 1.6rem;
     font-weight: 300;
     text-decoration: none;
-    height: 3rem;
-    width: 45%;
+    height: 4.5rem;
+    width: 48%;
     background-color: rgb(245, 245, 245);
     color: rgb(8, 8, 8);
     display: flex;
@@ -416,11 +416,11 @@ header {
 }
 
 .project-img1 {
-    background-image: url(/portfolio_2/images/BLACKDOT\ mockup.jpg);
+    background-image: url(/images/BLACKDOT\ mockup.jpg);
 }
 
 .project-img2 {
-    background-image: url(/portfolio_2/images/ARTstudio.jpg);
+    background-image: url(/images/ARTstudio.jpg);
 }
 
 .project-heading {
@@ -536,7 +536,7 @@ footer {
 }
 
 .about-img{
-    background-image: url(/portfolio_2/images/HUJ.jpg);
+    background-image: url(/images/HUJ.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
