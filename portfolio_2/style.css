@@ -214,6 +214,7 @@ header {
 }
 
 .bg-text-container {
+    
     color: rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
@@ -226,9 +227,11 @@ header {
     left: -34%;
     width: 165%;
     pointer-events: none;
+    display: none;
 }
 
 .bg-text {
+    pointer-events: none;
     font-size: 10rem;
     font-weight: 800;
 }
