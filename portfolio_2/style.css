@@ -126,7 +126,7 @@ body {
     -o-transform: rotate(45deg) translateX(-20px) translateY(3px);
     -ms-transform: rotate(45deg) translateX(-20px) translateY(3px);
     -webkit-transform: rotate(45deg) translateX(-20px) translateY(3px);
-    transform: rotate(45deg) translateX(-20px) translateY(3px);
+    transform: rotate(45deg) translateX(-20px) translateY(3.5px);
     transition: all 0.4s ease;
 }
 
@@ -179,7 +179,9 @@ body {
     text-decoration: none;
     font-weight: 300;
     display: inline-block;
+    
 }
+
 
 .social-links {
     padding-top: 8rem;
