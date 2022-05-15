@@ -69,7 +69,7 @@ function scanElements() {
         } else {
             element.classList.remove('view');
         }
-    })
+    });
 }
 
 function isVisable(element) {
