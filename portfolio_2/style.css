@@ -542,6 +542,12 @@ footer {
 /* about page */
 /* about page */
 /* about page */
+.about-header {
+    background-image: url(/images/BLACKDOT\ mockup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .about-info-container-about  {
     display: flex;
@@ -578,6 +584,13 @@ footer {
 /* projects page */
 /* projects page */
 /* projects page */
+.projects-header {
+    background-image: url(/images/BASIC-mockup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .projects-section-page {
     margin-top: 2rem;
 }
