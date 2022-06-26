@@ -31,6 +31,7 @@ burger.addEventListener('click', () => {
 
 
 // animate header
+
 let tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: '.header'
