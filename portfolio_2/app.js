@@ -5,7 +5,6 @@ const socialLinksNav = document.querySelectorAll('.social-links-nav a')
 // const menu = document.querySelectorAll('.nav-links ul li a')
 
 
-
 burger.addEventListener('click', () => {
     nav.classList.toggle('active');
     burger.classList.toggle('open');
